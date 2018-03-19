@@ -7,4 +7,4 @@ services:
 
 before_install:
   - docker pull mongo
-  - docker run -d -p 27017:27017 --name some-mongo
+  - docker run -d -p 27017:27017 --name some-mongo mongo
